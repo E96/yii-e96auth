@@ -1,0 +1,14 @@
+{
+    "name" : "e96/yii-e96auth",
+    "description" : "Internal OAauth plugin for yii framework",
+    "version" : "dev-master",
+    "license" : "proprietary",
+    "require": {
+        "yiisoft/yii" : "~1.1",
+        "php" : ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [ "src/" ]
+    }
+}
+
