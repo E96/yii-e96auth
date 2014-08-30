@@ -1,7 +1,9 @@
 <?php
 // vim: sw=4:ts=4:noet:sta:
+namespace E96Auth;
+use \EOAuth2Service;
 
-class InternalOAuthService extends EOAuth2Service {
+class OAuth2Service extends EOAuth2Service {
 	protected $accountInfoUrl;
 
 	protected $uid = null;

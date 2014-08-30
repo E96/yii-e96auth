@@ -1,10 +1,15 @@
 <?php
 // vim: sw=4:ts=4:noet:sta:
+namespace E96Auth;
+use \Yii;
+use \CAction;
+use \EAuthUserIdentity;
+use \CException;
 
 /**
  * Внутренняя аутентификация через OAauth
  */
-class InternalOAuthAction extends CAction {
+class LoginAction extends \CAction {
 
 	/**
 	 * @var string название компонента с пользователем
