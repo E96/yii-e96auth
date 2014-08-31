@@ -28,7 +28,7 @@ class OAuth2Service extends EOAuth2Service {
 	protected function fetchAttributes() {
 		$info = $this->makeSignedRequest($this->accountInfoUrl);
 		$this->attributes['id'] = $info->id;
-		$this->attributes['login'] = $info->login;
-		$this->attributes['name'] = $info->name;
+		$this->attributes['name'] = $info->login;
+		$this->attributes['displayName'] = $info->name;
 	}
 }
